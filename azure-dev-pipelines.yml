@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-  demands: agent.os -equals AIG003 
+  demands: agent.name -equals AIG003 
 
 steps:
 - script: echo Hello, world!
